@@ -1,0 +1,146 @@
+.RadGrid
+{
+    background-image: url(Img/header.gif);
+    background-repeat: repeat-x;
+    background-color: #f3f4f0;
+}
+
+.RadGrid Table
+{
+    font-family: Arial, Verdana;
+    color: #3d5e63;
+    border-spacing: 0;
+}
+
+.RadGrid A
+{
+    color: #295b62;
+}
+
+.RadGridHeader
+{
+    height: 59px;
+    padding: 0px;
+    color: #295b62;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-right: 11px;
+}
+
+.RadGridHeader A, .RadGridHeader SPAN
+{
+    padding-top: 14px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.RadGridHeader A:hover
+{
+    text-decoration: underline;
+}
+
+.EditFormHeader
+{
+    background-color: #ced9c1;
+    color: #475c2c;
+    height: 18px;
+}
+
+.EditFormButtonRow A { FONT-SIZE: 12px; COLOR: darkgreen }
+
+.EditFormHeader TD { FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-TOP: 4px; TEXT-ALIGN: center }
+
+.RadGridItem
+{
+    height: 40px;
+    padding-left: 4px;
+    font-size: 12px;
+    color: #547175;
+}
+
+.RadGridItem TD
+{
+    border-left: 7px solid #d1e2e4;
+    border-right: 7px solid #d1e2e4;
+}
+
+
+.FooterStyle
+{
+    height: 6px;
+    line-height: 4px;
+    font-size: 0px;
+}
+
+.FooterStyle TD
+{
+    border-left: 7px solid #d2b6c1;
+    border-right: 7px solid #d2b6c1;
+}
+
+.RadGridEditItem
+{
+    background-image: url(img/defaultEditItemBg.gif);
+    background-repeat: repeat-x;
+    padding-left: 4px;
+    background-color: #eef2ea;
+}
+
+.RadGridSelectedItem
+{
+    background-image: url(img/defaultSelectedItemBg.gif);
+    background-repeat: repeat-x;
+    height: 27px;
+    padding-left: 4px;
+    background-color: #eef2ea;
+}
+
+.RadGridPager
+{
+    background-image: url(img/footer.gif);
+    background-repeat: repeat-x;
+    height: 46px;
+    padding-top:5px;
+    padding-left: 11px;
+    background-color: white;
+    vertical-align: top;
+    color: #b79ea9;
+    font-weight: bold;
+}
+
+.RadGridPager div
+{
+    float:left;
+}
+
+.RadGridPager A
+{
+    color: #b79ea9;
+}
+
+.RadGridPager img
+{
+    margin:0 5px;
+}
+
+.GroupPanel
+{
+    background-color: #c4cdc0;
+    color: #5a6854;
+    width: 100%;
+    border-bottom: 1px solid #8d9c87;
+}
+
+.GroupPanelItem
+{
+    background-color: #9fb695;
+    border: 1px solid #8d9c87;
+    white-space: nowrap;
+}
+
+.FormsCaptionStyle
+{
+    border: 1px solid red;
+}

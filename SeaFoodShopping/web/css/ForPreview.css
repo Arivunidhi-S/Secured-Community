@@ -1,0 +1,253 @@
+﻿.ico_discount
+{
+    position: relative;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 42px;
+    margin: 16px 0 0 12px;
+    padding-top: 12px;
+    background: url("../images/sp1_24.png") no-repeat 0 -100px;
+    font-family: tahoma;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.linethrough
+{
+    text-decoration: line-through;
+}
+
+.product-grid
+{
+    width: 55%;
+    margin: 0 3% 4% 0;
+    float: left;
+    position: relative;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    min-height: 200px;
+    border-bottom: 2px solid #fff;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.enjoy-css
+{
+    float: right;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #00af31;
+    font: normal 16px/normal Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #00af31;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66);
+    -webkit-transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+    -moz-transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+    -o-transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+    transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+}
+
+.enjoy-css:hover
+{
+    border: 1px solid #0c0a0a;
+    background: #0c0b0b;
+    -webkit-transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+    -moz-transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+    -o-transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+    transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+    box-shadow:  0 0 0 5px #00af31,0 0 0 10px #24d856;
+}
+
+.a1
+{
+    line-height: 2em;
+    padding-bottom: 6px;
+    color: #B81D22; /* original colour state*/
+}
+
+.a1:active
+{
+    color: #B81D22;
+}
+
+.a1:hover
+{
+    color: #000;
+}
+.a1[tabindex]:focus
+{
+    color: #B81D22;
+    outline: none;
+}
+
+/* For Link Location */
+
+.link-location
+{
+    font-family: verdana, arial, helvetica, helve, sans-seri;
+    font-size: 12px;
+    margin-bottom: 0;
+    position: relative;
+    top: -2px;
+    margin-bottom: -5px;
+}
+
+.link-location a
+{
+    color: #00af31;
+    margin: 0 3px 0 3px;
+}
+.link-location
+{
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+/* For div popup*/ 
+
+ .closehref
+        {   
+            padding: 4px 4px 4px 4px;
+            text-decoration: none;
+            color: #fff;
+            background: url('Close.png') no-repeat 0 0;
+            width: 15px;
+            -webkit-border-radius: 20px;
+            border-radius: 20px;
+        }
+        .titletext
+        {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            padding: 0px;
+            border: none;
+            font: bold 16px/1 "amaranth" , Helvetica, sans-serif;
+            color: #00af31;
+            text-align: center;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            background: rgba(255,255,255,1);
+        }
+        
+        
+        .black_overlay
+        {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index: 1001;
+            -moz-opacity: 0.8;
+            opacity: .80;
+            filter: alpha(opacity=80);
+        }
+        .white_content
+        {
+            display: none;
+            position: absolute;
+            top: 15%;
+            left: 36%;
+            width: 26%;
+            height: 58%;
+            padding: 16px;
+            border: 5px solid #00af31;
+            background-color: white;
+            z-index: 1002;
+            overflow: auto;
+        }
+       
+        
+        
+        /* Text Box*/
+        
+        .textbox
+        {
+            padding: 2px;
+     font-size: 16px;
+     border-width: 1px;
+     border-color: #08A134;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 0px rgba(66,66,66,.75);
+     text-shadow:  0px 0px 5px px rgba(66,66,66,.75);
+        }
+        .textbox:focus
+        {
+               outline:none;
+        }
+        /*label*/
+        
+        .label-css
+        {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            margin: 1px;
+            padding: 8px 0 8px 1px;
+            border: none;
+            font: normal normal bold 14px/1 "baumans" , Helvetica, sans-serif;
+            position: relative;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            letter-spacing: 1px;
+        }
+        /*Button*/
+        .btn-css
+        {
+            display: inline-block;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            cursor: pointer;
+            padding: 5px 10px;
+            border: 1px solid #00af31;
+            font: normal 16px/normal Arial, Helvetica, sans-serif;
+            color: rgba(255,255,255,0.9);
+            -o-text-overflow: clip;
+            text-overflow: clip;
+            background: #00af31;
+            -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+            box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+            text-shadow: -1px -1px 0 rgba(15,73,168,0.66);
+            -webkit-transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+            -moz-transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+            -o-transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+            transition: font-size 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 4ms, color 200ms cubic-bezier(0.19, 1, 0.22, 1) 15ms;
+        }
+        
+        .btn-css:hover
+        {
+            border: 1px solid #0c0a0a;
+            background: #0c0b0b;
+            -webkit-transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+            -moz-transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+            -o-transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+            transition: all 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 17ms;
+        }

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SeaFoodShopping", "http://localhost/SeaFoodShopping", "{689B41B0-4BC7-490B-9785-D56C4122524F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/SeaFoodShopping"
+		Debug.AspNetCompiler.PhysicalPath = "..\SeaFoodShopping\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SeaFoodShopping\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SeaFoodShopping"
+		Release.AspNetCompiler.PhysicalPath = "..\SeaFoodShopping\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SeaFoodShopping\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\inetpub\wwwroot\SeaFoodShopping\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{689B41B0-4BC7-490B-9785-D56C4122524F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689B41B0-4BC7-490B-9785-D56C4122524F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

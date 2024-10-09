@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>E-Shopping More images</title>
+    <link rel="stylesheet" type="text/css" href="./css/styleZoom.css" />
+</head>
+<body oncontextmenu="return false;">
+	<div class="bzoom_wrap">
+        <ul id="bzoom">
+            <li>
+                <img class="bzoom_thumb_image" src="img/SilkSarees12361.jpg" title="first img" />
+                <img class="bzoom_big_image" src="img/SilkSarees12361.jpg"/>
+            </li>
+            <li>
+                <img class="bzoom_thumb_image" src="https://unsplash.it/375/500?image=203"/>
+                <img class="bzoom_big_image" src="https://unsplash.it/750/1000?image=203"/>
+            </li>
+            <li>
+                <img class="bzoom_thumb_image" src="https://unsplash.it/375/500?image=212"/>
+                <img class="bzoom_big_image" src="https://unsplash.it/750/1000?image=212"/>
+            </li>
+            <li>
+                <img class="bzoom_thumb_image" src="https://unsplash.it/375/500?image=220"/>
+                <img class="bzoom_big_image" src="https://unsplash.it/750/1000?image=220"/>
+            </li>
+            <li>
+                <img class="bzoom_thumb_image" src="https://unsplash.it/375/500?image=223"/>
+                <img class="bzoom_big_image" src="https://unsplash.it/750/1000?image=223"/>
+            </li>
+        </ul>
+    </div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./js/jqzoom.js"></script>
+<script type="text/javascript">
+$("#bzoom").zoom({
+	zoom_area_width: 300,
+    autoplay_interval :3000,
+    small_thumbs : 4,
+    autoplay : false
+});
+</script>
+</html>
